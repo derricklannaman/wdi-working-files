@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="My first grid...">
+    	<meta name="keywords" content="grid, 960, CSS">
+	
+		<title>My First Grid</title>
+		
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/960_12_col.css">
+		<link rel="stylesheet" href="css/style.css">
+		
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	</head>
+	<body>
+		<div id="container" class="container_12">
+
+			<!-- PULL OFF THE GRID --> 
+			<h1>THE STANDARD GRID</h1>
+			<div class="grid_3 colorbox">
+				<h2>[GRID 3]</h2>
+			</div>
+			<div class="grid_3 colorbox">
+				<h2>[GRID 3]</h2>
+			</div>
+			<div class="grid_3 colorbox">
+				<h2>[GRID 3]</h2>
+			</div>
+			<div class="grid_3 colorbox">
+				<h2>[GRID 3]</h2>
+			</div>
+			<div class="clear"></div>
+
+
+			<div class="grid_4 colorbox">
+				<h2>[GRID 4]</h2>
+			</div>
+			<div class="grid_4 colorbox">
+				<h2>[GRID 4]</h2>
+			</div>
+			<div class="grid_4 colorbox">
+				<h2>[GRID 4]</h2>
+			</div>
+			<div class="clear"></div>
+
+			<h1>Photo Gallery</h1>
+
+			<!-- PULL OFF THE GRID --> 
+			<h1>PUSH / PULL</h1>
+			<div class="grid_12">
+				<p>Pull: relatively positions grid elements to the left</p>
+				<p>Push: relatively positions grid elements to the right</p>
+			</div>
+			<div class="grid_12 pull_1 colorbox">
+				<h2>[GRID 12 + PULL 1]</h2>
+			</div>
+			<div class="clear"></div>
+		
+
+			<!-- NESTED DIVS ALPHA/OMEGA --> 
+			<h1>ALPHA / OMEGA</h1>
+			<div class="grid_12">
+				<p>Alpha: zeros the left margin</p>
+				<p>Omega: zeros the right margin</p>
+			</div>
+			<div class="grid_6 nestedbox">
+				<div class="grid_3 alpha colorbox">
+					<h3>[GRID 3]</h3>
+				</div>
+				<div class="grid_3 omega colorbox">
+					<h3>[GRID 3]</h3>
+				</div>			
+			</div>
+			<div class="grid_6 colorbox">
+				<h3>[GRID 6]</h3>
+			</div>
+			<div class="clear"></div>
+
+
+
+			<h1>PREFIX / SUFFIX</h1>
+			<div class="grid_12">
+				<p>Prefix: adds padding to the left of a grid element</p>
+				<p>Suffix: adds padding to the right of a grid element</p>
+			</div>
+			<div class="grid_8 prefix_4 colorbox">
+				<h3>[GRID 8 + PREFIX 4]</h3>
+			</div>
+			<div class="grid_4 colorbox">
+				<h3>[GRID 4]</h3>
+			</div>
+			<div class="clear"></div>
+
+		</div><!-- #container --> 
+	</body>
+</html>

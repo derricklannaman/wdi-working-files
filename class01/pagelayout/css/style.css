@@ -1,0 +1,93 @@
+/*
+Project: Page layout
+Author: Derrick Lannaman
+*/
+
+body {
+	background: 	url('../images/pattern2.png'); 
+	font-size:		30px;
+	color:				black;
+	line-height:	1.4;
+	font-family:	Helvetica, Arial, sans-serif;
+}
+
+h1,h2,h3,h4,h5	{
+	margin-bottom:	20px;
+}
+
+h1 {
+	font-size:			70px;
+	color:					#FFF;
+	letter-spacing:	-3px;
+}
+
+h2 {
+	font-size: 35px;
+	padding:	10px;
+
+}
+
+a {
+	color: red;
+	text-decoration: none;
+}
+
+a:hover {
+	color: green;
+}
+
+blockquote {
+	color:				#333;
+	font-size: 		16px;
+	margin-left: 	40px; 
+	margin-right:	25px;
+}
+
+#container {
+	background:	#FFF;
+	width:			700px;
+	margin:			auto;
+}
+
+#header {
+	background:	#FF6666;
+	padding:		16px;
+}
+
+#main: {
+	background:	#FFF;
+}
+
+#main p {
+	padding:	20px;
+}
+
+.hidden {
+	font-size:		16px;
+	margin-left: 	20px;
+}
+summary {
+	font-size: 		26px;
+	font-weight: 	bold;
+}
+
+#footer {
+	background: #FF6666;
+	padding:		20px;
+	height:			60px;
+}
+
+#footer p {
+	color:	#FFF;
+}
+
+#float_footer {
+	float:				right;
+	width:				200px;
+	padding-top:	40px;
+	font-size: 		20px
+}
+
+ul {
+	font-size: 16px;
+}

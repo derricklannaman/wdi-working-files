@@ -1,0 +1,66 @@
+body {
+	font-size: 12px;
+	font-family: "Times New Roman";
+	color: #333;
+}
+
+
+h1 {
+	font-size: 50px;
+}
+
+
+
+/* button styles */
+
+nav ul li {
+	float:	left;
+}
+
+	nav ul li a {
+		width:	60px;
+		height:	60px;
+  	margin:	5px;
+
+		display:	block;
+/*scott kellum image replacement
+*/
+		text-indent:	100%;
+		white-space:	nowrap;
+		overflow:	hidden;
+
+
+
+		background: url('../images/socialnav.png');
+	}
+
+
+
+
+	nav ul li.linkedin a {
+		background-position:	-60px 64px;
+	}
+	nav ul li.twitter a {
+		background-position:	0px 64px;
+	}
+	nav ul li.facebook a {
+		background-position:	-120px 64px;
+	}
+	nav ul li.rss a {
+		background-position:	-60px 64px;
+	}
+
+
+	nav ul li.linkedin a:hover {
+		background-position:	0px 0px;
+	}
+	nav ul li.twitter a:hover {
+		background-position:	-60px 0px;
+	}
+	nav ul li.facebook a:hover {
+		background-position:	-120px 0px;
+	}
+	nav ul li.rss a:hover {
+		background-position:	-180px 0px;
+	}
+

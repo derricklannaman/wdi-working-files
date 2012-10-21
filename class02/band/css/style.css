@@ -1,0 +1,202 @@
+/* 
+Project Name: Band  
+Client: GA
+Author: Derrick Lannaman
+Notes:
+*/
+
+/* ================== GENERAL ==================== */
+
+
+body {
+	font-size:	14px;
+	font-family:	"Trebuchet MS", tahoma, Helvetica, Arial, sans-serif;
+	color: rgba(128,128,128, 0.9);
+}
+
+/* ================== GENERAL >> index.html ==================== */
+
+#main-rapper {
+	width: 1060px;
+	min-height: 1060px;
+	margin: auto;
+	background: url('../images/black-and-white-cityscape-night-photography-martin-stavars-6.jpeg') no-repeat center center fixed;
+	background-size: cover;
+}
+
+/* ================== GENERAL >> profile.html ==================== */
+
+
+
+#container {
+	width: 1060px;
+	margin: auto;
+	margin-top:	170px;
+}
+
+/* ================== HEADER & NAVIGATION ==================== */
+/* ---- Global ---- */
+header {
+	width:	100%;
+	position:	fixed;
+	top:	0;
+	left:	0;
+	border-top:	5px solid rgba(99, 99, 99, 0.2);
+	background: rgba(255, 255, 255, 0.5);
+	padding:	10px;
+	box-shadow: 15px 0px 15px rgba(99, 99, 99, 0.5);
+}
+
+header h1 {
+	font-size:	50px;
+	font-family:	tahoma, Helvetica, Arial, sans-serif;
+	color:	#FFF;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-shadow:	5px 5px 7px rgba(0, 0, 0, 0.2);
+}
+/* ==== navigation >> profile.html ==== */
+ul {
+	float:	right;
+}
+
+ul li {
+	display:	inline;
+}
+
+nav li a {
+	float:	left;
+	width:	150px;
+	font-size:	1.8em;
+	text-decoration: none;
+	color:	rgba(0, 0, 0, 0.2);
+	text-shadow:	1px 1px 3px rgba(255, 255, 255, 0.9);
+
+}
+
+	nav li a:hover {
+		color:	#FFF;
+		text-shadow:	1px 1px 3px rgba(0, 0, 0, 0.9);
+	}
+
+#top-nav {
+	position:	fixed;
+	top:	102px;
+	left:	589px;
+
+}
+
+#logo span {
+	text-transform:	capitalize;
+}
+
+/* -- navigation >> index.html --*/
+
+	#main-nav-button {
+		width:	200px;
+		margin-left:	476px;
+		padding:	5px 10px;
+		border-radius: 20px;
+		text-align: center;
+		background: url('../images/green-fibers.png');
+		font-size:	30px;
+	}
+		#main-nav-button a {
+			color: #999;
+			text-decoration:	none;
+			display:	block;
+		}
+			#main-nav-button a:hover {
+				color: #FFF;
+			}	
+
+/* ================== MAIN CONTENT ==================== */
+
+section {
+	font-size:	18px;
+	font-family:	"Trebuchet MS", tahoma, Helvetica, Arial, sans-serif;
+}
+
+#banner	{
+	padding-left:	20px;
+	display:	inline;
+}
+
+#main-info {
+	float:	left;
+	width:	305px;
+	padding:	15px;
+}
+	#main-info h1 {
+		font-size:	30px;
+		font-family:	"Trebuchet MS", Helvetica, Arial;
+	}
+
+	#secondary-content {
+		text-align: center
+	}
+		#secondary-content h1 {
+			margin-left:	-40px;	
+	}	
+#sidebar {
+	float:	right;
+	width:	350px;
+	margin-right:	20px;
+	padding:	10px;
+	min-height: 400px;
+}
+
+#sidebar h3 {
+	font-size:	24px;
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	letter-spacing: 2px;
+}
+
+summary {
+	font-size:	24px;
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	letter-spacing: 2px;
+}
+
+
+/* ================== FOOTER ==================== */
+
+footer nav {
+	float:	right;
+	width:	100%;
+	background: url('../images/dark_brick_wall.png');
+}
+
+	footer nav li a {
+		float:	left;
+		width:	200px;
+		color:	orange;
+		text-shadow:	none;
+	}
+
+/* ================== Misc ==================== */
+
+.lyrics {
+	font-size:	30px;
+	font-family:	"MS Trebuchet", Arial;
+	color:	orange;
+	text-shadow: 3px 1px 2px #000;
+	margin-top:	250px;
+	text-align:	center;
+}
+
+	.lyrics h3 {
+		text-align: center;
+	}
+
+.clear {
+	clear:	both;
+}
+
+
+
+
+
+
+
